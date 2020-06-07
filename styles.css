@@ -1,0 +1,190 @@
+.logo-image {
+  width: 17%;
+  height: 20%;
+  display: inline-block;
+  padding-left : 20%;
+	transform: rotate(15deg);
+}
+
+
+.title{
+	display:flex;
+  width : 80%;
+  height: 15%;
+	background: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.greeting {
+  display: inline-block;
+  width:100%;
+  font-family: "Comic Sans MS";
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 250%;
+  margin-bottom: 1%;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);
+}
+
+.video-box {
+  padding-left: 23%;
+  height:20%;
+  width: 27%;
+}
+
+/*.drip {
+
+	padding-left: 20vw;
+}*/
+
+.intro{
+	background-color: black;
+	background-image: url("images/pattern.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	height: 100vh;
+	height: 100vh;
+	width:100vw;
+}
+
+/*.black_box{*/
+
+	/*background-color: black;
+}*/
+
+.about{
+  background-image: linear-gradient(to left, darkblue, pink, purple);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}/*
+	
+	background-color: blue;
+}*/
+
+
+.about-img{
+	display: inline-block;
+	width: 25%;
+	padding-left: 35%;
+	padding-top: 2%;
+
+
+}
+.about-text {
+  display: inline-block;
+  margin: 3%;
+  background-image: linear-gradient(to left, yellow, white);
+  font-family: "Comic Sans MS";
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%;
+  padding: 1%;
+}
+
+.actor-container{
+	height: 100%;
+	width:100%;
+	background-color: black;
+	background-image: url("images/actors.png");
+	padding : 0;
+	margin:0;
+
+}
+
+.actors{
+	position: relative;
+	display: inline-block;
+	padding-top: 10%;
+	padding-left: 27%;
+}
+
+
+/* FLIPCARD1 START The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-image{
+  height:100%;
+  width:100%;
+}
+
+.flip-card {
+  display: inline-flex;
+  margin: 20px;
+  background-color: transparent;
+  width: 30%;
+  height: 30%;
+  /*border: 1px solid #f1f1f1;*/
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  /*padding: 10px;*/
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(540deg);
+}
+.actor-image{
+	display: block;
+	width: 65%;
+	padding-left: 0.05%;
+	padding-top: 2%;
+}
+
+.image-caption{
+	position: absolute;
+	color: black;
+	font-size: 35px;
+	font-family: "Comic Sans MS";
+	background-image: linear-gradient(to left, turquoise, white);
+}
+
+.info {
+    position: fixed;
+    bottom: 2%;
+    left: 90%;
+    height: 9%;
+}
+.info img {
+    height: 95%;
+    cursor: pointer;
+}
+
+
+
+/*3D TEXT*/
