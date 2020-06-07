@@ -1,3 +1,7 @@
+/*css part is easy to understand so I did not add much comments*/
+
+
+
 .logo-image {
   width: 17%;
   height: 20%;
@@ -34,10 +38,7 @@
   width: 27%;
 }
 
-/*.drip {
 
-	padding-left: 20vw;
-}*/
 
 .intro{
 	background-color: black;
@@ -49,21 +50,14 @@
 	width:100vw;
 }
 
-/*.black_box{*/
 
-	/*background-color: black;
-}*/
 
 .about{
   background-image: linear-gradient(to left, darkblue, pink, purple);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-}/*
-	
-	background-color: blue;
-}*/
-
+}
 
 .about-img{
 	display: inline-block;
@@ -180,6 +174,8 @@
     left: 90%;
     height: 9%;
 }
+
+/*the fixed icon formatting*/
 .info img {
     height: 95%;
     cursor: pointer;

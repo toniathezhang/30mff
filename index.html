@@ -4,12 +4,14 @@
 <head>
 	<title>Meme?</title>
 	<link rel="stylesheet" href="styles.css" />
-<!-- this is a comment -->
+
 
 </head>
-
+<!-- the webpage is divided into three parts: 1)intro 2)about 3)actors- each is a div -->
 <body>
+	<!-- intro part start -->
 	<div class="intro">
+		<!-- add logo and greeting/tag line -->
 
 				<img class="logo-image" src="images/logo2.png" alt="hahahhab">
 				<img class="title" src="images/title2.png">
@@ -18,19 +20,17 @@
 			<div class="greeting">
 				join us to learn how to buy food and stand in the line (covid-19 edition)
 			</div>
-
+			<!-- add video -->
 
 		<div class="video-box">
 			<video class="meme-video" width="200%" height="275%" controls>
 				<source src="images/30MFF.mp4" type="video/mp4">
 			</video>
 		</div>
-		<!-- <div class="drip">
-				<img class="drip" src="images/drip.gif" alt="hahahhab">
-		</div> -->
+		
 
 	</div>
-
+<!-- "about" section div starts here -->
 	<div class="about" id="about-section">
 		<img class="about-img" src="images/about.png">
 		<div class="about-text">
@@ -74,9 +74,9 @@
 		</div>
 		<!-- HERE ENDS FLIPCARD -->
 	</div>
-		
+		<!-- here is the div that contains the actors&slider -->
 	<div class="actor-container">
-		<!-- <img class="actors-img" src="images/actors.png"> -->
+		
 		<div class=actors> 
 				<div class="mySlides" >
 					<img class="actor-image" src="images/tonia.png"  onmouseover="playAudio()" onmouseout="pauseAudio()">
@@ -102,10 +102,11 @@
     					Romeno, une|mployed student, +971555555
   					</div>
 				</div>
-	  			<!-- <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-	  			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button> -->
+	  			
 		</div>
 	</div>
+
+	<!-- add the fixed icon that redirects to "about" section -->
 
   <div class = "info">
     <img id = "info" src="images/info.png">
