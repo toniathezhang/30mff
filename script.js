@@ -1,4 +1,5 @@
 var info = document.getElementById('info')
+var aboutSection = document.getElementById('about-section')
 var slideIndex = 0;
 carousel();
 
@@ -28,6 +29,5 @@ function pauseAudio(){
 }
 
 info.onclick = () => {
-  window.scrollTo(0, 740)
-  UpperBody.style.opacity = 1
+  aboutSection.scrollIntoView();
 }
