@@ -1,6 +1,10 @@
 /*css part is easy to understand so I did not add much comments*/
 
-
+body {
+  margin:0;
+  padding:0;
+}
+/* ^to remove ugly white borders */
 
 .logo-image {
   width: 17%;
@@ -179,6 +183,11 @@
 .info img {
     height: 95%;
     cursor: pointer;
+}
+
+.info img:hover {
+
+  opacity: 0.5
 }
 
 
